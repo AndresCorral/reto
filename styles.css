@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --main-font-bold: 
+  }
+.mainFont{
+    font-family: "Muli", sans-serif;
+    font-weight: 800;
+}
+.navFont{
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+}
+.secFont{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+body {
+    overflow-x:hidden;
+}
+#mainBanner{
+    display: flex;
+}
+nav{
+    justify-content: start;
+}
+#banner1{
+    width: 20%;
+}
+h1{
+    font-size: 58px;
+    color: #ffffff;
+    line-height: 68px;
+}
+#subtitle{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+}
