@@ -2,9 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-:root {
-    --main-font-bold: 
-  }
+body {
+    overflow-x:hidden;
+}
 .mainFont{
     font-family: "Muli", sans-serif;
     font-weight: 800;
@@ -17,18 +17,6 @@
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
 }
-body {
-    overflow-x:hidden;
-}
-#mainBanner{
-    display: flex;
-}
-nav{
-    justify-content: start;
-}
-#banner1{
-    width: 20%;
-}
 h1{
     font-size: 58px;
     color: #ffffff;
@@ -38,4 +26,23 @@ h1{
     color: #ffffff;
     font-size: 16px;
     line-height: 26px;
+}
+#container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2rem 1fr;
+    justify-items: start;
+}
+.navFont{
+    color: #ffffff;
+    text-decoration: none;
+}
+#banner1{
+    width: 135rem;
+    position: absolute;
+    z-index: -1;
+}
+#reloj1{
+    position: absolute;
+    z-index: 1;
 }
