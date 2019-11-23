@@ -12,6 +12,8 @@ body {
 .navFont{
     font-family: "Muli", sans-serif;
     font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
 }
 .secFont{
     font-family: 'Nunito Sans', sans-serif;
@@ -24,18 +26,16 @@ h1{
 }
 #subtitle{
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
 }
 #container1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2rem 1fr;
-    justify-items: start;
-}
-.navFont{
-    color: #ffffff;
-    text-decoration: none;
+    grid-template-columns: 44% 47% 9%;
+    grid-template-rows: 50px 300px 400px;
+    grid-template-areas: "nav1 nav2"
+                         "reloj texto1"
+                         "reloj texto2";
 }
 #banner1{
     width: 135rem;
@@ -45,4 +45,62 @@ h1{
 #reloj1{
     position: absolute;
     z-index: 1;
+    margin-left: 120px;
+    margin-top: 200px;
 }
+#logo{
+    grid-area: nav1;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+#menu{
+    grid-area: nav2;
+    margin-top: 30px;
+    margin-left: 97px;
+    display: inline-block;
+    white-space: normal;
+}
+#mainText{
+    grid-area: texto1;
+    margin-top: 150px;
+}
+#subtitle{
+    grid-area: texto2;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.button{
+    text-decoration: none;
+    padding: 18px;
+    /* font-size: 20px; */
+    color: #ffffff;
+    background-color: #3B04DB;
+    border-radius:50px;
+    border: 1px solid #ffffff;
+    background: #3B04DB;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+}
+#buy{
+    grid-area: texto2;
+    width: 130px;
+    height: 10px;
+    margin-top: 140px;
+    margin-left: 1px;
+    text-align: center;
+    line-height: 10px;
+}
+#info{
+    grid-area: texto2;
+    text-align: center;
+    width: 100px;
+    height: 10px;
+    margin-left: 190px;
+    margin-top: 140px;
+    line-height: 10px;
+}
+.button:hover{
+    color: #3B04DB;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
