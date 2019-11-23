@@ -103,4 +103,8 @@ h1{
     color: #3B04DB;
     background-color: #ffffff;
     text-decoration: none;
-  }
+}
+.navFont:hover{
+    color: #FF4E56;
+    text-decoration: none;
+}
