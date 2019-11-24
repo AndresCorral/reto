@@ -1,24 +1,3 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-body {
-    overflow-x:hidden;
-}
-.mainFont{
-    font-family: "Muli", sans-serif;
-    font-weight: 800;
-}
-.navFont{
-    font-family: "Muli", sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    text-decoration: none;
-}
-.secFont{
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-}
 h1{
     font-size: 58px;
     color: #ffffff;

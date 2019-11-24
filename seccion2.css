@@ -1,0 +1,59 @@
+#container2{
+    width: 88.438rem;
+    height: 44.188rem;
+    margin-top: 21rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* background-color: aqua; */
+}
+#reloj2{
+    grid-column-start: 2;
+    width: 33.563rem;
+    height: 36.375rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+}
+#der{
+    /* background-color: cyan; */
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 30.625rem;
+    height: 36.188rem;
+    margin-left: 9rem;
+}
+#secTitle{
+    font-size: 2.25rem;
+}
+#about{
+    font-size: 1.125rem;
+    color: #3B04DB;
+}
+#one{
+    font-size: 1rem;
+}
+.button2{
+    text-decoration: none;
+    padding: 1rem;
+    /* font-size: 20px; */
+    color: #ffffff;
+    background-color: #2E1278;
+    border-radius:3px;
+    background: #2E1278;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    margin-top: 9rem;
+}
+.button2:hover{
+    color: #ffffff;
+    background-color: #3B04DB;
+    text-decoration: none;
+}
+#VoBo{
+    width: 1.3rem;
+    height: 1.3rem;
+    float: left;
+}
+#linea{
+    text-decoration: none;
+}

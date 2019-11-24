@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    overflow-x:hidden;
+}
+.mainFont{
+    font-family: "Muli", sans-serif;
+    font-weight: 800;
+}
+.navFont{
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+.secFont{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+.terFont{
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+}
+.forFont{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+#bt2Font{
+    font-family: "Muli", sans-serif;
+    font-weight: 600;
+}
