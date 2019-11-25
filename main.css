@@ -1,33 +1,46 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
+
 body {
-    overflow-x:hidden;
+  overflow-x: hidden;
 }
-.mainFont{
-    font-family: "Muli", sans-serif;
-    font-weight: 800;
+.muliOcho {
+  font-family: "Muli", sans-serif;
+  font-weight: 800;
 }
-.navFont{
-    font-family: "Muli", sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    text-decoration: none;
+.muliSeis {
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
 }
-.secFont{
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
+.muliCuatro {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
 }
-.terFont{
-    font-family: "Muli", sans-serif;
-    font-weight: 400;
+.nunitoOcho {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
 }
-.forFont{
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 600;
+.nunitoSeis {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
 }
-#bt2Font{
-    font-family: "Muli", sans-serif;
-    font-weight: 600;
+.nunitoCuatro {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+#texto1 {
+  font-size: 1.125rem;
+  color: #3b04db;
+}
+#texto2 {
+  font-size: 2.25rem;
+}
+#texto3 {
+  font-size: 1rem;
+}
+#bt2Font {
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
 }

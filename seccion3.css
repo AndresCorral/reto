@@ -1,8 +1,41 @@
 #container3{
-
+    display: grid;
+    width: 100vw;
+    height: 62.5rem;
+    background-color: #F6F6F6;
+    text-align: center;
+    justify-items: center;
+}
+#cardContainer{
+    display: grid;
+    row-gap: 1.5rem;
+    column-gap: 2rem;
+    margin: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#textcontainer{
+    width: 55vw;
+    margin-top: 6rem;
 }
 .card{
-    width: 21.438rem;
-    height: 16.188rem;
-    background-color: aqua;
+    width: 19rem;
+    height: 14rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
 }
+.iconCard{
+    width: 3.438rem;
+    height: 3.438rem;
+    margin-top: 1rem;
+}
+#titleCard{
+    font-size: 1.375rem;
+}
+.textCard{
+    margin-top: 1rem;
+}
+
+

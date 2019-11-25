@@ -1,5 +1,5 @@
 #container2 {
-  width: 88.438rem;
+  width: 100vw;
   height: 44.188rem;
   margin-top: 21rem;
   display: grid;
@@ -21,16 +21,6 @@
   width: 30.625rem;
   height: 36.188rem;
   margin-left: 9rem;
-}
-#secTitle {
-  font-size: 2.25rem;
-}
-#about {
-  font-size: 1.125rem;
-  color: #3b04db;
-}
-#one {
-  font-size: 1rem;
 }
 .button2 {
   text-decoration: none;
