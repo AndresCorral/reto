@@ -1,20 +1,22 @@
 #container3{
     display: grid;
     width: 100vw;
-    height: 62.5rem;
+    height: 62.7rem;
     background-color: #F6F6F6;
     text-align: center;
     justify-items: center;
 }
 #cardContainer{
     display: grid;
+    align-content: start;
+    margin-top: 0rem;
     row-gap: 1.5rem;
-    column-gap: 2rem;
+    column-gap: 2.5rem;
     margin: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-#textcontainer{
+#textcontainer3{
     width: 55vw;
     margin-top: 6rem;
 }
