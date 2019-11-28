@@ -1,0 +1,49 @@
+#container9 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "izq der";
+  height: 52.063rem;
+}
+#textContainer9 {
+  width: 30rem;
+  margin-left: 20%;
+  margin-top: 18%;
+}
+#contacto9 {
+  grid-area: der;
+  margin-top: 6.5rem;
+  margin-right: 25%;
+  width: 39.625rem;
+  height: 39.438rem;
+  background-color: #ffffff;
+  box-shadow: rgba(248, 248, 248, 0.1) 0px 0px 30px 0px;
+}
+#bt9Font {
+  margin-top: 100rem;
+}
+.txt9 {
+  font-size: 16px;
+  color: #646464;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+.tlt9 {
+  color: #130f40;
+  font-size: 18px;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+}
+.labelFont {
+  color: #130f40;
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+}
+.input9{
+    width: 60%;
+  height: 4rem;
+  /* border-radius: 50px; */
+  border: 1px  rgba(248, 248, 248, 0.1) 0px 0px 30px 0px;;
+  outline: none;
+  font-size: 1rem;
+  margin-top: 4rem;
+}
