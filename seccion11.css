@@ -1,0 +1,39 @@
+#container11 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-areas: "area";
+  justify-items: center;
+  text-align: center;
+  background-color: #2e1278;
+  height: 25rem;
+  background-image: url(/images/map-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+#footer {
+    margin-top: 6rem;
+  grid-area: area;
+}
+#followText{
+    color: #ffffff;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#copytext{
+    color: #dddddd;
+}
+#ownerLink{
+    color: #7B75F3;
+    text-decoration: none;
+}
+#copy{
+    margin-bottom: 5rem;
+    width: 70rem;
+}
+#imgIcon{
+    width: 4rem;
+    height: 4rem;
+}
+#redes{
+    margin-top: 1rem;
+}

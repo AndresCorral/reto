@@ -44,3 +44,18 @@ body {
   font-family: "Muli", sans-serif;
   font-weight: 600;
 }
+#prodName {
+  font-size: 1.4rem;
+  color: #3b04db;
+}
+#prodPrice{
+  font-size: 1.15rem;
+  color: #FF4E56;
+}
+#order{
+  color: #2c3e50;
+}
+#order:hover{
+  color: #3b04db;
+}
+

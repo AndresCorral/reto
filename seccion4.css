@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "izq der";
   width: 100vw;
-  height: 550px;
+  height: 650px;
 }
 #izq4 {
   display: flex;
@@ -12,6 +12,7 @@
   width: 50vw;
 }
 #img4 {
+  height: 650px;
   width: 50vw;
   position: absolute;
   z-index: -1;
@@ -20,7 +21,7 @@
   /* position: absolute; */
   z-index: 1;
   width: 6vw;
-  height: 12vh;
+  height: 8vh;
 }
 
 #texto1 {

@@ -1,3 +1,11 @@
+#container1{
+    display: grid;
+    grid-template-columns: 44% 47% 9%;
+    grid-template-rows: 50px 300px 400px;
+    grid-template-areas: "nav1 nav2"
+                         "reloj texto1"
+                         "reloj texto2";
+}
 h1{
     font-size: 58px;
     color: #ffffff;
@@ -7,14 +15,6 @@ h1{
     color: #ffffff;
     font-size: 14px;
     line-height: 26px;
-}
-#container1{
-    display: grid;
-    grid-template-columns: 44% 47% 9%;
-    grid-template-rows: 50px 300px 400px;
-    grid-template-areas: "nav1 nav2"
-                         "reloj texto1"
-                         "reloj texto2";
 }
 #banner1{
     width: 135rem;
