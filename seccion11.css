@@ -11,33 +11,34 @@
   background-position: center;
 }
 #footer {
-    margin-top: 6rem;
+  margin-top: 6rem;
   grid-area: area;
+  width: 15rem;
+  height: 10rem;
 }
-#followText{
-    color: #ffffff;
-    margin-top: 1rem;
-    font-size: 1.5rem;
+#followText {
+  color: #ffffff;
+  margin-top: 1rem;
+  font-size: 1.5rem;
 }
-#copytext{
-    color: #dddddd;
+#copytext {
+  color: #dddddd;
 }
-#ownerLink{
-    color: #7B75F3;
-    text-decoration: none;
+#ownerLink {
+  color: #7b75f3;
+  text-decoration: none;
 }
-#copy{
-    margin-bottom: 5rem;
-    width: 70rem;
+#copy {
+  margin-bottom: 7rem;
+  width: 70rem;
 }
-#imgIcon{
-    width: 4rem;
-    height: 4rem;
+#imgIcon {
+  width: 3rem;
+  height: 3rem;
 }
-#imgIcon2{
-    width: 4rem;
-    height: 3.65rem;
-}
-#redes{
-    margin-top: 1rem;
+
+#redes {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
 }
