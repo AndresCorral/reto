@@ -1,45 +1,46 @@
-#container5{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40% 60%;
-    grid-template-areas: "top"
-                         "abajo";
-    width: 100vw;
-    height: 55rem;
-    background-color: #F6F6F6;
-    text-align: center;
-    justify-items: center;
+#container5 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40% 60%;
+  grid-template-areas:
+    "top"
+    "abajo";
+  width: 100vw;
+  height: 53rem;
+  background-color: #f6f6f6;
+  text-align: center;
+  justify-items: center;
 }
-#img5{
-    grid-area: abajo;
-    width: 34rem;
-    height: 25rem;
-    margin-top: 2%;
-    margin-right: 40%;
+#img5 {
+  grid-area: abajo;
+  width: 34rem;
+  height: 25rem;
+
+  margin-right: 40%;
 }
-#list5{
-    grid-area: abajo;
-    margin-top: 8%;
-    margin-left: 40%;
-    width: 30%;
+#list5 {
+  grid-area: abajo;
+  margin-top: 6%;
+  margin-left: 40%;
+  width: 30%;
 }
 #text5 {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-#textContainer5{
-    grid-area: top;
-    margin-top: 1rem;
-    width: 60%;
+#textContainer5 {
+  grid-area: top;
+  margin-top: 4rem;
+  width: 60%;
 }
 #VoBo5 {
-    width: 2.5rem;
-    height: 2.5rem;
-    float: left;
-    padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  padding: 0.5rem;
 }
-#linea5{
-    font-size: 18px;
-    text-align: left;
-    text-decoration: none;
+#linea5 {
+  font-size: 18px;
+  text-align: left;
+  text-decoration: none;
 }

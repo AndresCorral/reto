@@ -1,0 +1,80 @@
+#container10 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "izq der";
+  height: 52.063rem;
+}
+#textContainer10 {
+  width: 30rem;
+  margin-left: 20%;
+  margin-top: 18%;
+}
+#contacto10 {
+  grid-area: der;
+  margin-top: 6.5rem;
+  margin-right: 25%;
+  width: 39.625rem;
+  height: 39.438rem;
+  border-radius: 7px;
+  border: solid #d8d8d817 ;
+  /* border-style: solid; */
+  background-color: #ffffff;
+  
+}
+#bt10Font {
+  margin-top: 100rem;
+}
+.txt10 {
+  font-size: 16px;
+  color: #646464;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+.tlt10 {
+  color: #130f40;
+  font-size: 18px;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+}
+.labelFont {
+  color: #130f40;
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+}
+.input10 {
+  width: 80%;
+  height: 2.5rem;
+  border: 1px rgba(248, 248, 248, 0.1) 0px 0px 30px 0px;
+  font-size: 1rem;
+  margin-top: 0.6rem;
+}
+.inputmsg10{
+  width: 80%;
+  height: 7rem;
+  border: 1px rgba(248, 248, 248, 0.1) 0px 0px 30px 0px;
+  font-size: 1rem;
+  margin-top: 0.6rem;
+}
+#formTitle {
+  margin-top: 3rem;
+  font-family: "Muli";
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#nombreLabel{
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+#mailLabel{
+  margin-top: 2.6rem;
+  margin-left: 2rem;
+}
+#msgLabel{
+  margin-top: 2.6rem;
+  margin-left: 2rem;
+}
+#bt10Font{
+  
+  margin-left: 2rem;
+}

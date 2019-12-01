@@ -1,49 +1,93 @@
 #container9 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "izq der";
-  height: 52.063rem;
+  height: 150vh;
+  width: auto;
+  background-image: url(/images/testi-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #f6f6f6;
 }
 #textContainer9 {
-  width: 30rem;
-  margin-left: 20%;
-  margin-top: 18%;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  margin-left: 22rem;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
 }
-#contacto9 {
-  grid-area: der;
-  margin-top: 6.5rem;
-  margin-right: 25%;
-  width: 39.625rem;
-  height: 39.438rem;
+.feedbackCard {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  width: 53vw;
+  height: 65vh;
+  border-radius: 10px;
+  margin-left: 24%;
   background-color: #ffffff;
   box-shadow: rgba(248, 248, 248, 0.1) 0px 0px 30px 0px;
 }
-#bt9Font {
-  margin-top: 100rem;
+#cliente1,
+#cliente2 {
+  margin-top: 3rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50px;
+  margin-left: 45%;
 }
-.txt9 {
-  font-size: 16px;
-  color: #646464;
+#star {
+  padding: 0px;
+  width: 5rem;
+  margin-left: 45%;
+}
+#testimonioConteiner {
+  margin-left: 2rem;
+  width: 90%;
+}
+#testimonio {
+  line-height: 2rem;
+  font-family: "Muli";
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #3f3b5a;
+  font-style: italic;
+}
+#name9 {
+  color: #ff4e56;
+  font-family: "Muli";
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+#puesto9 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
+  color: #717171;
 }
-.tlt9 {
-  color: #130f40;
-  font-size: 18px;
+#pasarDer {
+  text-decoration: none;
+  color: #ff4e56;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+#btnIzq9,
+#btnDer9 {
+  text-decoration: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.4rem;
+  color: #3b04db;
+  border: 1px solid #c7c6c663;
+  border-radius: 8px;
+  background: #ffffff;
   font-family: "Muli", sans-serif;
-  font-weight: 600;
+  font-weight: 800;
 }
-.labelFont {
-  color: #130f40;
-  font-family: "Muli", sans-serif;
-  font-weight: 400;
+#btnIzq9 {
+  margin-left: 48%;
 }
-.input9{
-    width: 60%;
-  height: 4rem;
-  /* border-radius: 50px; */
-  border: 1px  rgba(248, 248, 248, 0.1) 0px 0px 30px 0px;;
-  outline: none;
-  font-size: 1rem;
-  margin-top: 4rem;
+#btnIzq9:hover,
+#btnDer9:hover {
+  color: #ffffff;
+  background-color: #3b04db;
+  text-decoration: none;
 }

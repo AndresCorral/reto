@@ -23,16 +23,32 @@
   width: 6vw;
   height: 8vh;
 }
-
-#texto1 {
+#txt1Con4 {
   margin-top: 6rem;
   margin-left: 3.5rem;
 }
-#texto2,
-#texto3,
-#bt2Font {
+#txt2Con4,
+#txt3Con4,
+.button4 {
   margin-left: 3.5rem;
 }
 #textContainer4 {
   width: 40vw;
+}
+.button4 {
+  text-decoration: none;
+  padding: 1rem;
+  /* font-size: 20px; */
+  color: #ffffff;
+  background-color: #2e1278;
+  border-radius: 3px;
+  background: #2e1278;
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  margin-top: 9rem;
+}
+.button4:hover {
+  color: #ffffff;
+  background-color: #3b04db;
+  text-decoration: none;
 }

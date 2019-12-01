@@ -60,6 +60,11 @@ h1{
     font-family: "Muli", sans-serif;
     font-weight: 400;
 }
+.button:hover{
+    color: #3B04DB;
+    background-color: #ffffff;
+    text-decoration: none;
+}
 #buy{
     grid-area: texto2;
     width: 130px;
@@ -78,16 +83,16 @@ h1{
     margin-top: 140px;
     line-height: 10px;
 }
-.button:hover{
-    color: #3B04DB;
-    background-color: #ffffff;
-    text-decoration: none;
-}
+
 #navFont:hover{
     color: #FF4E56;
     text-decoration: none;
 }
 #navFont{
     color: #ffffff;
+    text-decoration: none;
+}
+#navHome{
+    color: #FF4E56;
     text-decoration: none;
 }

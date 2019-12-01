@@ -17,15 +17,15 @@
 }
 #prodContainer {
   display: grid;
-  align-content: start;
-  justify-items: center;
+  /* align-content: start;
+  justify-items: center; */
   margin-top: 0.1rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
+  gap: 2rem;
 }
 .producto {
-  margin-left: 5rem;
-  margin-top: 2.5rem;
+  margin-top: 4rem;
   width: 23rem;
   height: 37rem;
   display: grid;

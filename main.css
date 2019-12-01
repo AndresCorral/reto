@@ -30,18 +30,26 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
 }
-#texto1 {
+.texto1 {
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
   font-size: 1.125rem;
   color: #3b04db;
 }
-#texto2 {
+.texto2 {
+  font-family: "Muli", sans-serif;
+  font-weight: 800;
   font-size: 2.25rem;
 }
-#texto3 {
+.texto3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
   font-size: 1rem;
   color: #646464;
 }
 #bt2Font {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
   font-family: "Muli", sans-serif;
   font-weight: 600;
 }
